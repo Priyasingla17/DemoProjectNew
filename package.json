@@ -1,0 +1,34 @@
+{
+  "name": "demoprojectnew",
+  "version": "1.0.0",
+  "description": "Learning more on react",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyasingla17/DemoProjectNew.git"
+  },
+  "keywords": [
+    "react",
+    "reactdom",
+    "project"
+  ],
+  "author": "priya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyasingla17/DemoProjectNew/issues"
+  },
+  "homepage": "https://github.com/Priyasingla17/DemoProjectNew#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserList":["last 2 versions"]
+}
