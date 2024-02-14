@@ -1,7 +1,8 @@
 {
   "name": "demoprojectnew",
   "version": "1.0.0",
-  "description": "Learning more on react",
+  "description": "",
+  "main": "tailwind.config.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -11,24 +12,28 @@
     "type": "git",
     "url": "git+https://github.com/Priyasingla17/DemoProjectNew.git"
   },
-  "keywords": [
-    "react",
-    "reactdom",
-    "project"
-  ],
-  "author": "priya",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Priyasingla17/DemoProjectNew/issues"
   },
   "homepage": "https://github.com/Priyasingla17/DemoProjectNew#readme",
   "devDependencies": {
-    "parcel": "^2.10.3",
-    "process": "^0.11.10"
+    "parcel": "^2.11.0",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.5",
+    "@mui/material": "^5.15.5",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.12",
+    "@reduxjs/toolkit": "^2.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "browserList":["last 2 versions"]
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.3",
+    "styled-components": "^6.1.8"
+  }
 }
